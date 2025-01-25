@@ -4,7 +4,7 @@ public class BMICalculation2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter the number of persons: ");
+        System.out.print("Enter the number of individuals: ");
         int numberOfPersons = sc.nextInt();
 
         double[][] personData = new double[numberOfPersons][3];
@@ -13,20 +13,20 @@ public class BMICalculation2 {
         for (int i = 0; i < numberOfPersons; i++) {
             double weight;
             do {
-                System.out.print("Enter weight (in kg) for person " + (i + 1) + ": ");
+                System.out.print("Enter weight (in kg) " + (i + 1) + ": ");
                 weight = sc.nextDouble();
                 if (weight < 0) {
-                    System.out.println("Please enter a positive weight.");
+                    System.out.println("enter a positive weight.");
                 }
             } while (weight < 0);
             personData[i][1] = weight;
 
             double height;
             do {
-                System.out.print("Enter height (in meters) for person " + (i + 1) + ": ");
+                System.out.print("Enter height (in meters) " + (i + 1) + ": ");
                 height = sc.nextDouble();
                 if (height < 0) {
-                    System.out.println("Please enter a positive height.");
+                    System.out.println("enter a positive height.");
                 }
             } while (height < 0);
             personData[i][0] = height;

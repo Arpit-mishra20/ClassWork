@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class DisplayMultiplication {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number (6 to 9) to display its multiplication table: ");
-        int number = scanner.nextInt();
+        int number = sc.nextInt();
 
         if (number < 6 || number > 9) {
             System.out.println("Please enter a number between 6 and 9.");
-            scanner.close();
+            sc.close();
             return;
         }
 
@@ -22,6 +22,6 @@ public class DisplayMultiplication {
             System.out.println(number + " * " + i + " = " + multiplicationResult[i - 1]);
         }
 
-        scanner.close();
+        sc.close();
     }
 }

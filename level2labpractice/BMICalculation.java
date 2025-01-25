@@ -4,7 +4,7 @@ public class BMICalculation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter the number of persons: ");
+        System.out.print("Enter the number of individuals: ");
         int numberOfPersons = sc.nextInt();
 
         double[] weights = new double[numberOfPersons];
@@ -13,9 +13,9 @@ public class BMICalculation {
         String[] weightStatus = new String[numberOfPersons];
 
         for (int i = 0; i < numberOfPersons; i++) {
-            System.out.print("Enter weight (in kg) for person " + (i + 1) + ": ");
+            System.out.print("Enter weight (in kg) " + (i + 1) + ": ");
             weights[i] = sc.nextDouble();
-            System.out.print("Enter height (in meters) for person " + (i + 1) + ": ");
+            System.out.print("Enter height (in meters) " + (i + 1) + ": ");
             heights[i] = sc.nextDouble();
         }
 
