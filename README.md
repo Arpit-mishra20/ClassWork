@@ -1,2 +1,2 @@
 ## DAY1
--Completed day1 problems
+-Completed assignment solutions
