@@ -1,2 +1,2 @@
-## DAY1
--Completed daily assignment solutions and created the branch to display the current work
+## DAY-03-02-2025
+-The assignment emphasizes best programming practices in Java,including the use of static variables and methods for shared data,the 'this' keyword for clarity in constructors,final variables for constants,and the 'instanceof' operator for safe type-checking.Sample programs demonstrate these concepts in various contexts,such as banking,library management,and employee systems,promoting efficient and error free code.
