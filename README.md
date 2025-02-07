@@ -135,3 +135,9 @@ Comparison between this, final, static, and instanceof keywords.
 
 Object Modeling: Object relationships and communication.
 Assisted Problems: Create a Library with Books (Aggregation), allowing books to exist independently. Model a Bank with Customers (Association) to illustrate account relationships. Design a Company with Departments (Composition) to show hierarchical structure. Develop a School with Students and Courses (Association/Aggregation) and simulate a Hospital with Doctors and Patients (Association). Object Diagrams capture class instances and their relationships.
+ 
+07-02-2025
+
+Inheritance Concepts:
+The assignment introduces various inheritance concepts in programming, including single, multilevel, hierarchical, and hybrid inheritance. It provides examples like animal hierarchies, employee management systems, and vehicle management systems. Key principles emphasize proper use of inheritance, favoring composition, maintaining "is-a" relationships, and ensuring polymorphism, while also addressing best practices for implementation.
+ 
