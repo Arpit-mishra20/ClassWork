@@ -1,2 +1,2 @@
-## DAY1
--Completed day1 problems
+07-02-2025
+The assignment introduces various inheritance concepts in programming, including single, multilevel, hierarchical, and hybrid inheritance. It provides examples like animal hierarchies, employee management systems, and vehicle management systems. Key principles emphasize proper use of inheritance, favoring composition, maintaining "is-a" relationships, and ensuring polymorphism, while also addressing best practices for implementation.
