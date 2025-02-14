@@ -7,7 +7,7 @@ public class BubbleSort{
 
         for(int i=0;i<n-1;i++){
         boolean isSwapped=false;
-            for(int j=0;j=n-i-1;j++){
+            for(int j=0;j<n-1-i;j++){
                 if(marks[j]>marks[j+1]){
                     int temp=marks[j];
                     marks[j]=marks[j+1];
