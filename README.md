@@ -271,3 +271,72 @@ Java Generics provide a powerful way to create reusable, type-safe code. By leve
 <summary>Files</summary>
 MarketPlace.java PersonalizedMealPlan.java ResumeScreening.java SmartWareHouseSystem.java UniversityCourseManagement.java
 </details>
+
+DATE: 22-02-2025
+Regex
+
+Regular Expressions (Regex) are a sequence of characters defining a search pattern. They are commonly used for validations, searching, text manipulation, and data extraction. Java provides the java.util.regex package to handle regular expressions.
+Java provides two main classes to work with regex:
+**Pattern** → Represents a compiled regex pattern.
+**Matcher** → Performs operations like searching, matching, and replacing.
+3. Regex Metacharacters :
+Metacharacters are special characters with a specific meaning in regex.
+
+Regex Quantifiers :
+Quantifiers define how many times a character or group appears in the text.
+JUnit
+
+JUnit is a Java unit testing framework used to write and execute automated tests. It helps developers ensure that their code functions correctly by verifying individual units (methods or classes) in an application.
+JUnit Annotations
+
+@Test - Marks a method as a test case
+@BeforeEach - Runs before each test method
+@AfterEach - Runs after each test method
+@BeforeAll - Runs once before all test methods (Static)
+@AfterAll - Runs once after all test methods (Static)
+@DisplayName - Sets a custom test name
+@Disabled - Skips a test method
+@RepeatedTest(n) - Runs a test multiple times
+@ParameterizedTest - Runs a test with different parameters
+@Tag - Categorizes tests for filtering
+
+
+DATE: 24-02-2025
+
+
+Reflection
+Reflection is a powerful feature in Java that allows us to inspect and manipulate classes, methods, fields, and constructors at runtime, even if their names are unknown at compile time.
+Reflection allows runtime access to classes, methods, fields, and annotations.
+We can modify private fields, call private methods, and create objects dynamically.
+Reflection is useful but should be used cautiously due to performance overhead.
+Annotations
+
+Annotations are metadata added to Java code (classes, methods, fields, etc.) to provide additional information. They do not directly affect program execution but can be processed by:
+Compilers (e.g., @Override for compile-time checks).
+
+Runtime environments (e.g., JUnit’s @Test for test execution).
+
+Frameworks (e.g., Spring’s @Autowired for dependency injection).
+
+
+Core Java Annotations
+@Override - Indicates a method is overriding a superclass method.
+
+@Deprecated - Marks a method/class as obsolete and Triggers a compiler warning if used.
+
+@SuppressWarnings - Suppresses compiler warnings for specific code blocks.
+
+@FunctionalInterface - Ensures an interface has exactly one abstract method (for lambda compatibility).
+
+
+Meta-Annotations (Annotations for Annotations)
+
+@Retention - Specifies how long the annotation is retained: RetentionPolicy.SOURCE (discarded by the compiler). RetentionPolicy.CLASS (retained in class files, not runtime). RetentionPolicy.RUNTIME (accessible via reflection).
+
+@Target - Defines where the annotation can be applied: ElementType.METHOD, ElementType.TYPE, ElementType.FIELD, etc.
+
+@Inherited - Allows subclasses to inherit the annotation from a superclass.
+
+@Documented - Includes the annotation in generated Javadoc.
+
+
